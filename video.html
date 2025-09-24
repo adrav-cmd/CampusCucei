@@ -1,39 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             background-color: black;
         }
-
-        /* Proporcion 16:9 */
-        .video-responsive {
-            width: 100%;
-            padding-bottom: 56.25%; /* 16:9 */
-            position: relative;
-            overflow: hidden;
-        }
-        
-    
-        .video-responsive iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
+        iframe {
             width: 100%;
             height: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="video-responsive">
-       <iframe src="https://www.youtube.com/embed/RR6fJo2a13k?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <iframe
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=1"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
 </body>
 </html>
